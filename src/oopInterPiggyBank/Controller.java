@@ -12,12 +12,7 @@ public class Controller {
 	static String str_UserInput;
 	static int int_UserInput;
 
-	void execute() {
-
-		OOPPiggyBank_Model pg1 = new OOPPiggyBank_Model();
-		OOPPiggyBank_Model pg2 = new OOPPiggyBank_Model();
-		OOPPiggyBank_Model pg3 = new OOPPiggyBank_Model();
-		OOPPiggyBank_Model pg4 = new OOPPiggyBank_Model();
+	void execute(OOPPiggyBank_Model pg1,OOPPiggyBank_Model pg2, OOPPiggyBank_Model pg3, OOPPiggyBank_Model pg4) {
 
 		while (OOPPiggyBank_Model.isFlag()) {
 			OOPPiggyBank_Model.setStr_customerName(showInputDialog("Please enter your first name"));
